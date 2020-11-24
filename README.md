@@ -73,8 +73,6 @@ while ulang:
     akhir = (tugas * 30/100) + (uts * 35/100) + (uas * 35/100)
 
     nilai.append([nama, nim, tugas, uts, uas, int(akhir)])
-    if (input("Tambah data (y/t)?") == 't'):
-        ulang = False
 ```
 Dari statement diatas. Kita diminta untuk menginput: <br>
 **Nama** <br>
@@ -86,4 +84,34 @@ Dari statement diatas. Kita diminta untuk menginput: <br>
 Lalu sistem akan mengjumlah nilai-nilai yang sudah diinput pada tiap-tiap nilai dan menghasilkan nilai akhir. Inputan itu kemudian masuk ke list **Akhir**.
 <br>
 
-3.
+3. Setelah membuat perulanagan, kita membuat statement untung stop atau keluar dari loop yang aktif. <br>
+```
+  if (input("Tambah data (y/t)?") == 't'):
+        ulang = False
+```
+Untuk bisa keluar dari loop yang aktif kita harus pilih option **t** pada statement diatas `**y/t**`. <br>
+`y = yes` <br>
+`n = no` <br>
+Ketika kita memilih option **t** proses itu akan membuat variable `ulang = True` menjadi `ulang = False` kemudian akan menghentikan loop yang aktif <br>
+
+4. Mencetak Hasil Input <br>
+```
+print("\n                      Daftar Nilai Mahasiswa")
+print("==================================================================")
+print("|No. |     Nama     |    NIM    | Tugas |  UTS  |  UAS  |  Akhir |")
+print("==================================================================")
+i = 0
+for item in nilai:
+    i += 1
+    print("| {no:2d} | {nama:12s} | {nim:9s} | {tugas:5d} | {uts:5d} | {uas:5d} | {akhir:6.2f} |"
+          .format(no=i, nama=item[0], nim=item[1], tugas=item[2], uts=item[3], uas=item[4], akhir=item[5]))
+print("==================================================================")
+```
+<br>
+<div align="center">
+<img src="images/resultp4.png" >
+</div>
+<br>
+***
+
+# Terimakasih
