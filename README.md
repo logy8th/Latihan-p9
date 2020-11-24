@@ -50,3 +50,40 @@ Source code diatas akan menghasilkan output program sebagai berikut: <br>
 <img src="images/resultp4.png" >
 </div>
 <br>
+
+***
+
+**Penjelasan** <br>
+1. Membuat variable list kosong <br>
+```
+nilai = []
+ulang = true
+```
+Variable `ulang = True` digunakan untuk mengontrol pengulangan. 
+<br>
+
+2. Kemudian setelah itu kita membuat kondisi perulangan dan statement yang akan dijalakan kan ketika perulangan terjadi. <br>
+```
+while ulang:
+    nama = input("Masukkan Nama: ")
+    nim = input("Masukkan NIM: ")
+    tugas = int(input("Masukkan Nilai Tugas: "))
+    uts = int(input("Masukkan Nilai UTS: "))
+    uas = int(input("Masukkan Nilai UAS: "))
+    akhir = (tugas * 30/100) + (uts * 35/100) + (uas * 35/100)
+
+    nilai.append([nama, nim, tugas, uts, uas, int(akhir)])
+    if (input("Tambah data (y/t)?") == 't'):
+        ulang = False
+```
+Dari statement diatas. Kita diminta untuk menginput: <br>
+**Nama** <br>
+**NIM** <br>
+**Nilai Tugas** <br>
+**Nilai UTS** <br>
+**Nilai UAS** <br>
+
+Lalu sistem akan mengjumlah nilai-nilai yang sudah diinput pada tiap-tiap nilai dan menghasilkan nilai akhir. Inputan itu kemudian masuk ke list **Akhir**.
+<br>
+
+3.
