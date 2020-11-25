@@ -129,3 +129,12 @@ Kemudian pada pertemuan tersebut terdapat pula tugas praktikum 5, berikut tugas 
 <img src="images/sclab5.png" >
 </div> 
 <br>
+
+**Source Code diatas akan menghasilkan output seperti dibawah ini:** <br>
+
+<div align="center">
+<img src="images/output5.png" >
+</div> 
+<br>
+
+**Penjelasan:**
