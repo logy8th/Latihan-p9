@@ -194,7 +194,48 @@ Kemudian pada pertemuan tersebut terdapat pula tugas praktikum 5, berikut tugas 
 - `sub_data = input("(semua)), (Nama), (NIM), (Tugas), (UTS), (UAS): ")` ini untuk mengubah menu di `sub_data`
 
 - `if sub_data.lower() == "semua"`  : ambil kata kunci 'semua' di dalam `sub_data` <br>
-Jika 'semua' maka input data di `[nama][1] = input("Ubah NIM:")`<br>
+Jika **'semua'** maka input data di `[nama][1] = input("Ubah NIM:")`<br>
 `data[nama][2] = int(input("Ubah Nilai Tugas: ")) data[nama][3] = int(input("Ubah Nilai UTS: ")) data[nama][4] = int(input("Ubah Nilai UAS: "))`
 
--
+- `data[nama][5] = data[nama][2] *30/100 + data[nama][3]*35/100 + data[nama][4] *35/100` maka kita akan dapatkan nilai akhir dengan diambil dari perhitungan 3 komponen nilai **(tugas: 30%, uts: 35%, uas: 35%)**
+
+***Ket: [5] nilai_akhir, dimana [0] = nama***
+
+- Kemudian kita cetak `print()`
+
+- Jika kita ingin mengubah data tertentu maka `elif sub_data.lower() =="nim": data[nama][1] = input("NIM"") fungsi ini berlaku juga untuk **Nilai Tugas, UTS dan UAS**
+
+- Kemudian kita cetak `print()`
+
+- `else: print("'{}' tidak ditemukan.".format(nama))`   : Jika kita salah dalam memasukkan nama untuk diubah, maka data akan muncul di '**nama tidak di temukan**'.
+<br>
+
+**Cari Data**
+
+- `elif menu.lower() == `c`:` Ambil Data 'c' dari `menu`
+
+- `nama = input("Masukan nama untuk mencari data: ")`   kita akan menginput data yang nanti akan kita cari.
+
+- `if nama in data.keys():` kita mengambil nama dari list '**nama**' di dalam '**data**' menggunakan *pengkodisian*.
+
+- Kemudian kita cetak `print("nNama: {0}/nNIM : {1}/nNilai Tugas: {2}/nUTS: {3}/nUAS: {4}/nNilai Akhir: {5}"` digunakan untuk menampilkan data yang tersedia.
+
+- `else: print("'{}' tidak ditemukan.".format(nama))`   : Jika kita salah dalam memasukkan nama untuk diubah, maka data akan muncul di '**nama tidak di temukan**'.
+<br>
+
+**Hapus Data**
+
+- `elif menu.lower() == 'h':` Ambil data 'h' dari `menu`
+
+- `nama = input("Masukan nama untuk mencari data: ")`   kita akan menginput data yang nanti akan kita hapus.
+
+- `if nama in data.keys():` kita mengambil nama dari list '**nama**' di dalam '**data**' menggunakan *pengkodisian*.
+
+- `del data[nama]` Untuk menghapus semua '**Nama**' yang ada didalam `data`.
+
+- Kemudian maka di cetak `print("sub_data '{}' berhasil dihapus.".format(nama))`
+
+- `else: print("'{}' tidak ditemukan.".format(nama))`   : Jika kita salah dalam memasukkan nama untuk diubah, maka data akan muncul di '**nama tidak di temukan**'.
+<br>
+
+***
