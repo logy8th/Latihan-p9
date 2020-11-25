@@ -107,6 +107,8 @@ for item in nilai:
           .format(no=i, nama=item[0], nim=item[1], tugas=item[2], uts=item[3], uas=item[4], akhir=item[5]))
 print("==================================================================")
 ```
+**Dari source code diatas maka akan keluar output:***
+
 <br>
 <div align="center">
 <img src="images/resulttp4.png" >
@@ -239,3 +241,8 @@ Jika **'semua'** maka input data di `[nama][1] = input("Ubah NIM:")`<br>
 <br>
 
 ***
+<div align="center">
+<img src="images/tttd.png" >
+</div>
+<br>
+**Naufal Nirwansyah**
