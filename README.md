@@ -1,4 +1,4 @@
-# Latihan-p9
+# Latihan-P9
 <pre>
 Nama    : Naufal Nirwansyah 
 Kelas   : TI.20.A1
@@ -120,5 +120,11 @@ Kemudian pada pertemuan tersebut terdapat pula tugas praktikum 5, berikut tugas 
 
 <div align="center">
 <img src="images/tugasp5.png" >
+</div> 
+<br>
+Untuk membuat program yang diminta, saya menggunakan source code sebagai berikut: <br>
+
+<div align="center">
+<img src="images/sclab5.png" >
 </div> 
 <br>
