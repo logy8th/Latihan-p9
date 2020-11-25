@@ -125,7 +125,7 @@ print("==================================================================")
 </div>
 <br>
 
-Dibawah ini adalah tampilan flowchart dari tugas **Praktikum 4** <br>
+Dibawah ini adalah tampilan flowchart dari **Tugas Praktikum 4**: <br>
 
 <div align="center">
 <img src="images/flowchartp4.png">
