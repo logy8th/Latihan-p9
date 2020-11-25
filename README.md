@@ -117,6 +117,7 @@ print("==================================================================")
 # Praktikum 5
 
 Kemudian pada pertemuan tersebut terdapat pula tugas praktikum 5, berikut tugas yang diberikan: <br>
+
 <div align="center">
 <img src="images/tugasp5.png" >
 </div> 
