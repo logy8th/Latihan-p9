@@ -242,6 +242,6 @@ Jika **'semua'** maka input data di `[nama][1] = input("Ubah NIM:")`<br>
 
 ***
 ![ttd](images/tttd.png)
-
 <br>
+
 **Naufal Nirwansyah**
