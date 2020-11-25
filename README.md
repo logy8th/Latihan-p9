@@ -141,21 +141,41 @@ Kemudian pada pertemuan tersebut terdapat pula tugas praktikum 5, berikut tugas 
 
 ## Penjelasan:
 
-**Header**
+**Header:**
 
 - `data={}` : Ini digunakan untuk menampung list dengan format **dictionary**. <br>
-<br>
 
-- `while`   :Digunakan untuk menampilkan data perulangan sebanyak-banyaknya. <br>
-<br>
+- `while`   : Digunakan untuk menampilkan data perulangan sebanyak-banyaknya. <br>
 
-- `menu = input("(T)ambah), (U)bah, (H)apus, (L)ihat, (C)ari, (K)eluar: ")` : Untuk menambah opsi Tambah/Ubah/Hapus/Lihat Data/ Cari/Keluar dari variable menu. <br>
-<br>
+- `menu = input("(T)ambah), (U)bah, (H)apus, (L)ihat, (C)ari, (K)eluar: ")` : Untuk menambah opsi **Tambah/Ubah/Hapus/Lihat Data/Cari/Keluar** dari variable menu. <br>
 
 - `else: print("Data ada yang salah, silahkan cek kembali.")` : Ini output jika kita salah dalam input makan akan tercetak `Data ada yang salah, silahkan cek kembali.`<br>
-<br>
 
 - Masukan **Nama, NIM, Nilai Tugas, Nilai UTS, Nilai UAS, dan Nilai Akhir** kemudian nanti akan dimasukkan kedalam `data={}`<br>
 <br>
 
 - Nilai akhir didapat dari = (nilai_tugas)*30/100 + (nilai_uts)*35/100 + (nilai_uas)*35/100
+
+**Keluar:**
+
+- `if menu.lower() == 'k'`  : Ambil data 'k' dari `menu`
+
+- Setelah itu kita `break` untuk menghentikan seluruh proses yang berjalan.
+
+**Lihat Data:**
+
+- `if menu.lower() == 'I'`   : Kita menggunakan kondisi percabangan **if**, ambil data dari `menu` kemudian kita mengubah perintah 'I' yang kita input menjadi huruf kecil dengan fungsi `lower()` 
+
+- Kemudian kita cetak `print()`
+
+**Tambah Data:**
+
+- `elif menu.lower()  == 't'`   : Ambil data 't' dari `menu` 
+
+- `nama = input("Masukan nama: ")` lalu kita tambahkan input **Nama, NIM, Nilai Tugas, UTS, UAS**
+
+- `nilai_akhir = (nilai_tugas)*30/100 + (nilai_uts)*35/100 + (nilai_uas)*35/100`    : untuk nilai akhir diambil dari perhitungan 3 Komponen yang sudah diinput **(nilai_tugas: 30%, nilai_uts: 35%, nilai_uas: 35%)**
+
+- `data[nama] = [nama, nim, nilai_tugas, nilai_uts, nilai_uas, nilai_akhir]` disini kita akan memasukkan data yang tadi kita input, kemudian diinput kedalam `data[nama]`.
+
+- Kemudian kita cetak `print()`
