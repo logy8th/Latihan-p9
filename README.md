@@ -8,8 +8,7 @@ Dosen   : Agung Nugroho S.Kom, M.Kom
 
 **Daftar Isi**
 <p align="center">
-  
-Daftar isi tugas sebelumnya<br>
+
 | No. | Keterangan | Link |
 | --- | --- | --- |
 | 1 | Praktikum 4 | [Link](#Praktikum-4) |
