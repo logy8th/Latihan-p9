@@ -9,7 +9,7 @@ Dosen   : Agung Nugroho S.Kom, M.Kom
 ***
  ## Praktikum 4
 
- Pada pertemuan ke-9 yang lalu, saya mendapat untuk mengerjakan task yang terdapat didalam materi pada pertemuan ke-9, berikut tugas yang diberikan oleh dosen saya : <br>
+ Pada pertemuan ke-9 yang lalu, saya mendapat tugas untuk mengerjakan task yang terdapat didalam materi pada pertemuan ke-9, berikut tugas yang diberikan oleh dosen saya : <br>
 <div align="center">
 <img src="images/tugasp4.png" >
 </div>
@@ -114,5 +114,10 @@ print("==================================================================")
 <br>
 
 ***
+# Praktikum 5
 
-# Terimakasih
+Kemudian pada pertemuan tersebut terdapat pula tugas praktikum 5, berikut tugas yang diberikan: <br>
+<div align="center">
+<img src="images/tugasp5.png" >
+</div> 
+<br>
