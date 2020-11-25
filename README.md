@@ -6,6 +6,17 @@ NIM     : 312010174
 Dosen   : Agung Nugroho S.Kom, M.Kom
 </pre>
 
+**Daftar Isi**
+<p align="center">
+  
+Daftar isi tugas sebelumnya<br>
+| No. | Keterangan | Link |
+| --- | --- | --- |
+| 1 | Praktikum 4 | [Link](#Praktikum 4) |
+| 2 | Pertemuan 5 | [Link](#Praktikum 5) |
+
+</p>
+
 ***
  ## Praktikum 4
 
