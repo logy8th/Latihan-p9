@@ -12,8 +12,8 @@ Dosen   : Agung Nugroho S.Kom, M.Kom
 Daftar isi tugas sebelumnya<br>
 | No. | Keterangan | Link |
 | --- | --- | --- |
-| 1 | Praktikum 4 | [Link](#Praktikum 4) |
-| 2 | Pertemuan 5 | [Link](#Praktikum 5) |
+| 1 | Praktikum 4 | [Link](#Praktikum-4) |
+| 2 | Pertemuan 5 | [Link](#Praktikum-5) |
 
 </p>
 
