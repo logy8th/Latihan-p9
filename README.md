@@ -152,21 +152,23 @@ Kemudian pada pertemuan tersebut terdapat pula tugas praktikum 5, berikut tugas 
 - `else: print("Data ada yang salah, silahkan cek kembali.")` : Ini output jika kita salah dalam input makan akan tercetak `Data ada yang salah, silahkan cek kembali.`<br>
 
 - Masukan **Nama, NIM, Nilai Tugas, Nilai UTS, Nilai UAS, dan Nilai Akhir** kemudian nanti akan dimasukkan kedalam `data={}`<br>
-<br>
 
 - Nilai akhir didapat dari = (nilai_tugas)*30/100 + (nilai_uts)*35/100 + (nilai_uas)*35/100
+<br>
 
 **Keluar:**
 
 - `if menu.lower() == 'k'`  : Ambil data 'k' dari `menu`
 
 - Setelah itu kita `break` untuk menghentikan seluruh proses yang berjalan.
+<br>
 
 **Lihat Data:**
 
 - `if menu.lower() == 'I'`   : Kita menggunakan kondisi percabangan **if**, ambil data dari `menu` kemudian kita mengubah perintah 'I' yang kita input menjadi huruf kecil dengan fungsi `lower()` 
 
 - Kemudian kita cetak `print()`
+<br>
 
 **Tambah Data:**
 
@@ -179,3 +181,20 @@ Kemudian pada pertemuan tersebut terdapat pula tugas praktikum 5, berikut tugas 
 - `data[nama] = [nama, nim, nilai_tugas, nilai_uts, nilai_uas, nilai_akhir]` disini kita akan memasukkan data yang tadi kita input, kemudian diinput kedalam `data[nama]`.
 
 - Kemudian kita cetak `print()`
+<br>
+
+**Ubah Data**
+
+- `elif menu.lower()  == 'u'`   : Ambil data 't' dari `menu`
+
+- `nama = input("Masukan nama untuk mengubah data: ")` kemudian kita input nama yang akan diubah.
+
+- `if nama in data.keys(): print("Mau mengubah apa?")` jika `nama` dari dalam `data` maka akan kembali ke daftar menggunakan fungsi `keys()` lalu di cetak dengan `print()`
+
+- `sub_data = input("(semua)), (Nama), (NIM), (Tugas), (UTS), (UAS): ")` ini untuk mengubah menu di `sub_data`
+
+- `if sub_data.lower() == "semua"`  : ambil kata kunci 'semua' di dalam `sub_data` <br>
+Jika 'semua' maka input data di `[nama][1] = input("Ubah NIM:")`<br>
+`data[nama][2] = int(input("Ubah Nilai Tugas: ")) data[nama][3] = int(input("Ubah Nilai UTS: ")) data[nama][4] = int(input("Ubah Nilai UAS: "))`
+
+-
