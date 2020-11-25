@@ -107,7 +107,7 @@ for item in nilai:
           .format(no=i, nama=item[0], nim=item[1], tugas=item[2], uts=item[3], uas=item[4], akhir=item[5]))
 print("==================================================================")
 ```
-**Dari source code diatas maka akan keluar output:***
+**Dari source code diatas maka akan keluar output:**
 
 <br>
 <div align="center">
