@@ -241,8 +241,7 @@ Jika **'semua'** maka input data di `[nama][1] = input("Ubah NIM:")`<br>
 <br>
 
 ***
-<div align="center">
-<img src="images/tttd.png" >
-</div>
+![ttd](images/tttd.png)
+
 <br>
 **Naufal Nirwansyah**
