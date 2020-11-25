@@ -137,4 +137,17 @@ Kemudian pada pertemuan tersebut terdapat pula tugas praktikum 5, berikut tugas 
 </div> 
 <br>
 
-**Penjelasan:**
+***
+
+***Penjelasan:***
+<br>
+
+**Header**
+<br>
+
+- `data={}` : Ini digunakan untuk menampung list dengan format **dictionary**. <br>
+- `while`   :Digunakan untuk menampilkan data perulangan sebanyak-banyaknya. <br>
+- `menu = input("(T)ambah), (U)bah, (H)apus, (L)ihat, (C)ari, (K)eluar: ")` : Untuk menambah opsi Tambah/Ubah/Hapus/Lihat Data/ Cari/Keluar dari variable menu. <br>
+- `else: print("Data ada yang salah, silahkan cek kembali.")` : Ini output jika kita salah dalam input makan akan tercetak `Data ada yang salah, silahkan cek kembali.`<br>
+- Masukan **Nama, NIM, Nilai Tugas, Nilai UTS, Nilai UAS, dan Nilai Akhir** kemudian nanti akan dimasukkan kedalam `data={}`<br>
+- Nilai akhir didapat dari = (nilai_tugas)*30/100 + (nilai_uts)*35/100 + (nilai_uas)*35/100
