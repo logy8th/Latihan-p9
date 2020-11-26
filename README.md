@@ -256,6 +256,12 @@ Jika **'semua'** maka input data di `[nama][1] = input("Ubah NIM:")`<br>
 - `else: print("'{}' tidak ditemukan.".format(nama))`   : Jika kita salah dalam memasukkan nama untuk diubah, maka data akan muncul di '**nama tidak di temukan**'.
 <br>
 
+## Dibawah ini adalah tampilan flowchart dari Tugas Praktikum 4 
+
+<div align="center">
+<img src="images/flowchartp5.png">
+</div>
+
 ***
 ![ttd](images/tttd.png)
 <br>
