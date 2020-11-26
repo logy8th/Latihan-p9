@@ -66,8 +66,9 @@ Source code diatas akan menghasilkan output program sebagai berikut: <br>
 
 ***
 
-**Penjelasan** <br>
-1. Membuat variable list kosong <br>
+## Penjelasan
+
+**1. Membuat variable list kosong** <br>
 ```
 nilai = []
 ulang = true
@@ -75,7 +76,7 @@ ulang = true
 Variable `ulang = True` digunakan untuk mengontrol pengulangan. 
 <br>
 
-2. Kemudian setelah itu kita membuat kondisi perulangan dan statement yang akan dijalakan kan ketika perulangan terjadi. <br>
+**2. Kemudian setelah itu kita membuat kondisi perulangan dan statement yang akan dijalakan kan ketika perulangan terjadi.** <br>
 ```
 while ulang:
     nama = input("Masukkan Nama: ")
@@ -97,17 +98,22 @@ Dari statement diatas. Kita diminta untuk menginput: <br>
 Lalu sistem akan mengjumlah nilai-nilai yang sudah diinput pada tiap-tiap nilai dan menghasilkan nilai akhir. Inputan itu kemudian masuk ke list **Akhir**.
 <br>
 
-3. Setelah membuat perulanagan, kita membuat statement untuk stop atau keluar dari loop yang aktif. <br>
+**3. Setelah membuat perulanagan, kita membuat statement untuk stop atau keluar dari loop yang aktif.** <br>
 ```
   if (input("Tambah data (y/t)?") == 't'):
         ulang = False
 ```
+<br>
 Untuk bisa keluar dari loop yang aktif kita harus pilih option **t** pada statement diatas '**y/t**'. <br>
 `y = yes` <br>
-`n = no` <br>
+`n = no`
+<br>
+
 Ketika kita memilih option **t** proses itu akan membuat variable `ulang = True` menjadi `ulang = False` kemudian akan menghentikan loop yang aktif <br>
 
 4. Mencetak Hasil Input <br>
+<br>
+
 ```
 print("\n                      Daftar Nilai Mahasiswa")
 print("==================================================================")
@@ -120,6 +126,7 @@ for item in nilai:
           .format(no=i, nama=item[0], nim=item[1], tugas=item[2], uts=item[3], uas=item[4], akhir=item[5]))
 print("==================================================================")
 ```
+<br>
 **Dari source code diatas maka akan keluar output:**
 
 <br>
