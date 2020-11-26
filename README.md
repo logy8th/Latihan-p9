@@ -97,12 +97,12 @@ Dari statement diatas. Kita diminta untuk menginput: <br>
 Lalu sistem akan mengjumlah nilai-nilai yang sudah diinput pada tiap-tiap nilai dan menghasilkan nilai akhir. Inputan itu kemudian masuk ke list **Akhir**.
 <br>
 
-3. Setelah membuat perulanagan, kita membuat statement untung stop atau keluar dari loop yang aktif. <br>
+3. Setelah membuat perulanagan, kita membuat statement untuk stop atau keluar dari loop yang aktif. <br>
 ```
   if (input("Tambah data (y/t)?") == 't'):
         ulang = False
 ```
-Untuk bisa keluar dari loop yang aktif kita harus pilih option **t** pada statement diatas `**y/t**`. <br>
+Untuk bisa keluar dari loop yang aktif kita harus pilih option **t** pada statement diatas '**y/t**'. <br>
 `y = yes` <br>
 `n = no` <br>
 Ketika kita memilih option **t** proses itu akan membuat variable `ulang = True` menjadi `ulang = False` kemudian akan menghentikan loop yang aktif <br>
@@ -212,7 +212,7 @@ Kemudian pada pertemuan tersebut terdapat pula tugas praktikum 5, berikut tugas 
 
 - `if nama in data.keys(): print("Mau mengubah apa?")` jika `nama` dari dalam `data` maka akan kembali ke daftar menggunakan fungsi `keys()` lalu di cetak dengan `print()`
 
-- `sub_data = input("(semua)), (Nama), (NIM), (Tugas), (UTS), (UAS): ")` ini untuk mengubah menu di `sub_data`
+- `sub_data = input("(semua)), (Nama), (NIM), (Tugas), (UTS), (UAS): ")` ini untuk mengubah menu didalam `sub_data`
 
 - `if sub_data.lower() == "semua"`  : ambil kata kunci 'semua' di dalam `sub_data` <br>
 Jika **'semua'** maka input data di `[nama][1] = input("Ubah NIM:")`<br>
@@ -220,7 +220,7 @@ Jika **'semua'** maka input data di `[nama][1] = input("Ubah NIM:")`<br>
 
 - `data[nama][5] = data[nama][2] *30/100 + data[nama][3]*35/100 + data[nama][4] *35/100` maka kita akan dapatkan nilai akhir dengan diambil dari perhitungan 3 komponen nilai **(tugas: 30%, uts: 35%, uas: 35%)**
 
-***Ket: [5] nilai_akhir, dimana [0] = nama***
+**Ket: [5] nilai_akhir, dimana [0] = nama**
 
 - Kemudian kita cetak `print()`
 
@@ -264,8 +264,12 @@ Jika **'semua'** maka input data di `[nama][1] = input("Ubah NIM:")`<br>
 <div align="center">
 <img src="images/flowchartp5.png">
 </div>
+<br>
 
 ***
+**Sekian tugas saya untuk Repository ini, Terimkasih.**
+<br>
+
 ![ttd](images/tttd.png)
 <br>
 
