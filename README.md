@@ -111,7 +111,7 @@ Untuk bisa keluar dari loop yang aktif kita harus pilih option **t** pada statem
 
 Ketika kita memilih option **t** proses itu akan membuat variable `ulang = True` menjadi `ulang = False` kemudian akan menghentikan loop yang aktif <br>
 
-4. Mencetak Hasil Input <br>
+**4. Mencetak Hasil Input** <br>
 <br>
 
 ```
