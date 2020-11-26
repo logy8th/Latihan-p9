@@ -1,4 +1,7 @@
 # Latihan-P9
+Repository ini dibuat untuk memenuhi tugas pada Pertemuan ke-9.
+<br>
+
 <pre>
 Nama    : Naufal Nirwansyah 
 Kelas   : TI.20.A1
@@ -125,7 +128,7 @@ print("==================================================================")
 </div>
 <br>
 
-## Dibawah ini adalah tampilan flowchart dari Tugas Praktikum 4 
+## Dibawah ini adalah tampilan Flowchart dari Tugas Praktikum 4 
 
 <div align="center">
 <img src="images/flowchartp4.png">
@@ -256,7 +259,7 @@ Jika **'semua'** maka input data di `[nama][1] = input("Ubah NIM:")`<br>
 - `else: print("'{}' tidak ditemukan.".format(nama))`   : Jika kita salah dalam memasukkan nama untuk diubah, maka data akan muncul di '**nama tidak di temukan**'.
 <br>
 
-## Dibawah ini adalah tampilan flowchart dari Tugas Praktikum 4 
+## Dibawah ini adalah tampilan Flowchart dari Tugas Praktikum 5
 
 <div align="center">
 <img src="images/flowchartp5.png">
